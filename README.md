@@ -56,12 +56,5 @@ File in the RED box contains the average test performance (average AUC scores) o
 Files in the GREEN box contain the detailed AUC scores of SL-GCN models during 5 repeated experiments on the 12 prediction tasks.         
 
 ## References
-1. The GCN model is implemented using DGL 0.5.6 ([Github](https://github.com/dmlc/dgl/)) and its supplementary package DGL-LifeSci 0.2.6 ([Github](https://github.com/awslabs/dgl-lifesci/))
-
-
-
-
-
-
-
-
+1. In this study, the Tox21 dataset from MoleculeNet ([Website](http://moleculenet.ai/), [Github](https://github.com/deepchem/deepchem), [Paper](https://pubs.rsc.org/en/content/articlehtml/2018/sc/c7sc02664a)) is used as the labeled data.
+2. The GCN model is implemented using DGL 0.5.6 ([Github](https://github.com/dmlc/dgl/)) and its supplementary package DGL-LifeSci 0.2.6 ([Github](https://github.com/awslabs/dgl-lifesci/))
