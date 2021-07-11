@@ -46,8 +46,8 @@ Running time for SL-GCN models is approx ```3 min```.
 Running time for SSL-GCN models is approx ```13 min```.      
 Running time for CM models is approx ```32 min```.      
 
-### 2. Final production model prediction  
-The script is located in ```prediction``` folder
+### 3. Result  
+
 
 ## References
 1. We used ```iFeature``` to extract all peptide features. ([Github](https://github.com/Superzchen/iFeature/), [Paper](https://academic.oup.com/bioinformatics/article-abstract/34/14/2499/4924718))
