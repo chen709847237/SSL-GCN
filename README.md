@@ -20,10 +20,14 @@ We provide Python scripts to reproduce the experiments for conventional ML model
 * rdkit 2020.09.1
 
 ## Model and Data
-Models and data used for reproducing experiments are available at: [Here](https://drive.google.com/drive/folders/1DXHppIKO0vNqvpGrFAQyqnBodi3dr3fX?usp=sharing)
+Models and data used for reproducing experiments are available at: [Data](https://drive.google.com/file/d/1KSlG8LAdoINJwgbd0rN0L_5XYRK23znx/view?usp=sharing), [Model](https://drive.google.com/file/d/1xKz_zkinwA3BiqqAXOjHAYtVilWp-Zlz/view?usp=sharing)
 
-## Run the script
-### 1. Reproducing Experiments  
+## Reproducing Experiments
+### 1.    
+
+
+
+### 2.  Run the script  
 The script is located in ```model_comparison_CV``` folder
 ```bash
 python reproduce.py -mo <model_folder_path> -da <data_folder_path> -o <output_folder_path>
