@@ -39,31 +39,11 @@ python local_run.py -d <data_folder_path> -m <model_folder_path> -mt <model_type
 ```-o```：The path to an empty output folder where the experiment results will be stored (with "/" or "\\" at the end).     
 #### Example:
 ```bash
-python local_run.py -mo ./model/ -da ./data/ -o ./
+python local_run.py -d ./data/ -m ./model/ -mt cm -o ./cm_output_result/
 ```
 
 ### 2. Final production model prediction  
 The script is located in ```prediction``` folder
-```bash
-python prediction.py -t <tissue_type> -m <model_folder_path> -d <fasta_file_path> -o <output_folder_path>
-```
-where:  
-```<tissue_type>``` could be selected from ```breast```, ```cervix```, ```colon```, ```lung```, ```prostate``` and ```skin```.   
 
-#### Example:
-```bash
-python prediction.py -t breast -m ./model/ -d ./test_breast.fasta -o ./result/
-```
-**Note: The input peptide data must in the form of the following FASTA format.**
-```bash
->AmphiArc1
-KWVKKVHNWLRRWIKVFEALFG
->AmphiArc2
-KIFKKFKTIIKKVWRIFGRF
->Gradient2
-AWLKRIKKFLKALFWVWVW 
->AmphiArc3
-AFRHSVKEELNYIRRRLERFPNRL
-```
 ## References
 1. We used ```iFeature``` to extract all peptide features. ([Github](https://github.com/Superzchen/iFeature/), [Paper](https://academic.oup.com/bioinformatics/article-abstract/34/14/2499/4924718))
