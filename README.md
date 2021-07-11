@@ -47,11 +47,13 @@ Running time for SSL-GCN models is approx ```13 min```.
 Running time for CM models is approx ```32 min```.      
 
 ### 3. Result  
-When the program is finished, there should be two types of files in the output folder.           
-As the following figure shows, these are the result files of SL-GCN models.              
+After running, there should be two types of files in the output folder.           
+As the following figure shows, the result files of SL-GCN models.              
 
 ![image](https://github.com/chen709847237/SSL-GCN/raw/main/img/result_sample.png)     
 
+File in the red box contains the average test performance (average AUC scores) of SL-GCN models on the 12 prediction tasks in 5 repeated experiments.        
+Files in the green box contain the detailed AUC scores of SL-GCN models during 5 repeated experiments on the 12 prediction tasks.         
 
 ## References
 1. We used ```iFeature``` to extract all peptide features. ([Github](https://github.com/Superzchen/iFeature/), [Paper](https://academic.oup.com/bioinformatics/article-abstract/34/14/2499/4924718))
