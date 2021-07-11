@@ -29,13 +29,17 @@ Unzip the downloaded ```data.7z``` and ```model.7z``` files, place the ```data``
 ![image](https://github.com/chen709847237/SSL-GCN/raw/main/img/data_sample.png)     
 
 ### 2.  Run the script  
-The script is located in ```model_comparison_CV``` folder
+The main script is ```local_run.py```.    
+There are four input parameters:
+1. ```-d``` The path to the data folder (with "/" or "\\" at the end)
+
+
 ```bash
-python reproduce.py -mo <model_folder_path> -da <data_folder_path> -o <output_folder_path>
+python local_run.py -d <data_folder_path> -m <model_folder_path> -mt <model_type> -o <output_folder_path>
 ```
 #### Example:
 ```bash
-python reproduce.py -mo ./model/ -da ./data/ -o ./
+python local_run.py -mo ./model/ -da ./data/ -o ./
 ```
 
 ### 2. Final production model prediction  
