@@ -2,7 +2,7 @@
 ## Compound Toxicity Prediction Based onSemi-supervised Learning and GraphConvolutional Neural Network
 
 In this repository:
-1. We provide Python scripts to reproduce the experiments for conventional ML models, SL -GCN and SSL-GCN comparisons.
+We provide Python scripts to reproduce the experiments for conventional ML models, SL -GCN and SSL-GCN comparisons.
 
 ## Requirements 
 * Anaconda 4.10.1
@@ -20,8 +20,7 @@ In this repository:
 * rdkit 2020.09.1
 
 ## Model and Data
-1. Models and data used for reproducing experiments are available at: [Here](https://drive.google.com/drive/folders/1DXHppIKO0vNqvpGrFAQyqnBodi3dr3fX?usp=sharing)
-2. Final production models for peptide activity prediction are available at: ```./prediction/model/```
+Models and data used for reproducing experiments are available at: [Here](https://drive.google.com/drive/folders/1DXHppIKO0vNqvpGrFAQyqnBodi3dr3fX?usp=sharing)
 
 ## Run the script
 ### 1. Reproducing Experiments  
