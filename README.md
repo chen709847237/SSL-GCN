@@ -47,6 +47,11 @@ Running time for SSL-GCN models is approx ```13 min```.
 Running time for CM models is approx ```32 min```.      
 
 ### 3. Result  
+After 
+
+    
+
+![image](https://github.com/chen709847237/SSL-GCN/raw/main/img/data_sample.png)     
 
 
 ## References
