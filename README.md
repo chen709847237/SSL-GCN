@@ -24,8 +24,8 @@ Models and data used for reproducing experiments are available at: [[Data]](http
 
 ## Reproducing Experiments
 ### 1. Download model and data
-Unzip the downloaded ```data.7z``` and ```model.7z``` files, place the ```data``` folder and ```model``` folder in the same folder as the scripts.
-![image](https://github.com/chen709847237/SSL-GCN/raw/main/img/file_sample.jpg)     
+Unzip the downloaded ```data.7z``` and ```model.7z``` files, place the ```data``` folder and ```model``` folder in the same folder as the scripts.    
+![image](https://github.com/chen709847237/SSL-GCN/raw/main/img/data_sample.png)     
 
 ### 2.  Run the script  
 The script is located in ```model_comparison_CV``` folder
