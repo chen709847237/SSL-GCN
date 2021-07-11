@@ -47,9 +47,8 @@ Running time for SSL-GCN models is approx ```13 min```.
 Running time for CM models is approx ```32 min```.      
 
 ### 3. Result  
-After 
-
-    
+When the program is finished, there should be two types of files in the output folder.           
+As the following figure shows, these are the result files of SL-GCN models.              
 
 ![image](https://github.com/chen709847237/SSL-GCN/raw/main/img/result_sample.png)     
 
