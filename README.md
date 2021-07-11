@@ -1,7 +1,7 @@
 # SSL-GCN
 ## Compound Toxicity Prediction Based onSemi-supervised Learning and GraphConvolutional Neural Network
 
-In this repository:
+In this repository:         
 We provide Python scripts to reproduce the experiments for conventional ML models, SL -GCN and SSL-GCN comparisons.
 
 ## Requirements 
