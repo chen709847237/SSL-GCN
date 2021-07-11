@@ -42,9 +42,9 @@ python local_run.py -d <data_folder_path> -m <model_folder_path> -mt <model_type
 python local_run.py -d ./data/ -m ./model/ -mt cm -o ./cm_output_result/
 ```
 #### Note:
-Running time for SL-GCN models is approx 3 min.      
-Running time for SSL-GCN models is approx 13 min.      
-Running time for CM models is approx 32 min.      
+Running time for SL-GCN models is approx ```3 min```.      
+Running time for SSL-GCN models is approx ```13 min```.      
+Running time for CM models is approx ```32 min```.      
 
 ### 2. Final production model prediction  
 The script is located in ```prediction``` folder
