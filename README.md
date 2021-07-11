@@ -20,12 +20,10 @@ We provide Python scripts to reproduce the experiments for conventional ML model
 * rdkit 2020.09.1
 
 ## Model and Data
-Models and data used for reproducing experiments are available at: [[Data]](https://drive.google.com/file/d/1KSlG8LAdoINJwgbd0rN0L_5XYRK23znx/view?usp=sharing), [[Model]](https://drive.google.com/file/d/1xKz_zkinwA3BiqqAXOjHAYtVilWp-Zlz/view?usp=sharing)
+Models and data used for reproducing experiments are available at: [[Data]](https://drive.google.com/file/d/1KSlG8LAdoINJwgbd0rN0L_5XYRK23znx/view?usp=sharing) [[Model]](https://drive.google.com/file/d/1xKz_zkinwA3BiqqAXOjHAYtVilWp-Zlz/view?usp=sharing)
 
 ## Reproducing Experiments
-### 1.    
-
-
+### 1. Unzip the downloaded ```data.7z``` and ```model.7z``` files, place the ```data``` folder and ```model``` folder in the same folder as the scripts.
 
 ### 2.  Run the script  
 The script is located in ```model_comparison_CV``` folder
