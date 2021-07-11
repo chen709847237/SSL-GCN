@@ -30,7 +30,7 @@ Unzip the downloaded ```data.7z``` and ```model.7z``` files, place the ```data``
 
 ### 2.  Run the script  
 The main script is ```local_run.py```. There are four input parameters for this script:
-1. ```-d```→The path to the data folder (with "/" or "\\" at the end)
+```-d```：The path to the data folder (with "/" or "\\" at the end)
 
 
 ```bash
