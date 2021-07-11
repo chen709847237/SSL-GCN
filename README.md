@@ -30,8 +30,10 @@ Unzip the downloaded ```data.7z``` and ```model.7z``` files, place the ```data``
 
 ### 2.  Run the script  
 The main script is ```local_run.py```. There are four input parameters for this script:      
-```-d```：The path to the data folder (with "/" or "\\" at the end)
-
+```-d```：The path to the data folder (with "/" or "\\" at the end).         
+```-m```：The path to the model folder (with "/" or "\\" at the end).           
+```-mt```：Define the type of model, ```cm``` --- conventional ML models,  
+```-o```：The path to the data folder (with "/" or "\\" at the end)       
 
 ```bash
 python local_run.py -d <data_folder_path> -m <model_folder_path> -mt <model_type> -o <output_folder_path>
