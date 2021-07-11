@@ -51,7 +51,7 @@ After
 
     
 
-![image](https://github.com/chen709847237/SSL-GCN/raw/main/img/data_sample.png)     
+![image](https://github.com/chen709847237/SSL-GCN/raw/main/img/result_sample.png)     
 
 
 ## References
