@@ -29,9 +29,8 @@ Unzip the downloaded ```data.7z``` and ```model.7z``` files, place the ```data``
 ![image](https://github.com/chen709847237/SSL-GCN/raw/main/img/data_sample.png)     
 
 ### 2.  Run the script  
-The main script is ```local_run.py```.    
-There are four input parameters:
-1. ```-d``` The path to the data folder (with "/" or "\\" at the end)
+The main script is ```local_run.py```. There are four input parameters for this script:
+1. ```-d```→The path to the data folder (with "/" or "\\" at the end)
 
 
 ```bash
